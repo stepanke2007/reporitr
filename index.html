@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje IT Vizitka | Jan Nováček</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">JN</h1>
+            <ul class="nav-links">
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#skills">Dovednosti</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Uvod -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="main-title">Jan Nováček</h1>
+                <p class="intro-text">Webový vývojář a nadšenec pro moderní technologie. Tvořím funkční a estetické weby, které uživatelům přinášejí radost.</p>
+                <button id="welcomeBtn" class="btn">Zjistit více</button>
+            </div>
+        </section>
+
+        <!-- Sekce O mně -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>O mně</h2>
+                <p>Jsem vývojář se zálibou v JavaScript, HTML a CSS. Pracuji na projektech od malých webů po složitější aplikace. Rád se učím novým věcem a sleduju trendy v IT.</p>
+            </div>
+        </section>
+
+        <!-- Sekce Dovednosti -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Moje dovednosti</h2>
+                <ul class="skills-list">
+                    <li>🌐 HTML5 a CSS3</li>
+                    <li>⚙️ JavaScript (ES6+)</li>
+                    <li>📱 Responzivní design</li>
+                    <li>🎨 UI/UX design</li>
+                    <li>🔧 Git a GitHub</li>
+                    <li>🚀 Web Performance</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sekce Projekty -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Nedávné projekty</h2>
+                <div class="project-card">
+                    <h3>E-shop Aplikace</h3>
+                    <p>Jednoduchý e-shop vytvořený s HTML, CSS a JavaScript. Obsahuje nákupní košík a filtraci produktů.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Osobní Blog</h3>
+                    <p>Blog o vývoji webů se statickým generátorem. Najdete tu tipy a triky z mé praxe.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Kalkulačka</h3>
+                    <p>Pokročilá kalkulačka s podporou složitějších matematických operací a historií výpočtů.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekce Kontakt -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Máte zajímavý projekt? Rád se podívám!</p>
+                <a href="https://github.com/stepanke2007" class="contact-link">Navštívit můj GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jan Nováček. Všechna práva vyhrazena.</p>
+            <p id="clickCounter">Počet kliknutí: 0</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
